@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+Sitemap: https://jsdevtools.org/sitemap.txt
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
