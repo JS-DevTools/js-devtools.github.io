@@ -1,0 +1,130 @@
+#main-content {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 42px;
+    font-weight: normal;
+    color: $heading-color;
+    text-indent: 6px;
+    letter-spacing: -1px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -34px;
+      color: $heading-border;
+      content: "/";
+    }
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: $heading-color;
+    text-indent: 4px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -40px;
+      content: "//";
+      color: $heading-border;
+    }
+  }
+
+  h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: $heading-color;
+    text-indent: 3px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -42px;
+      content: "///";
+      color: $heading-border;
+    }
+  }
+
+  h4 {
+    margin-bottom: 8px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: $heading-color;
+    text-indent: 3px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -42px;
+      content: "////";
+      color: $heading-border;
+    }
+  }
+
+  h5 {
+    margin-bottom: 8px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 15px;
+    color: $heading-color;
+    text-indent: 3px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -45px;
+      content: "/////";
+      color: $heading-border;
+    }
+  }
+
+  h6 {
+    margin-bottom: 8px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 15px;
+    color: $heading-color;
+    text-indent: 3px;
+
+    &:before {
+      padding-right: $heading-left-padding;
+      margin-left: -51px;
+      content: "//////";
+      color: $heading-border;
+    }
+  }
+}
+
+// Tablet Portrait size
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  #main-content {
+    h1:before,
+    h2:before,
+    h3:before,
+    h4:before,
+    h5:before,
+    h6:before {
+      padding-right: 0;
+      margin-left: 0;
+      content: none;
+    }
+  }
+}
+
+// Phone size
+@media only screen and (max-width: $phone-max-width) {
+  #main-content {
+    h1:before,
+    h2:before,
+    h3:before,
+    h4:before,
+    h5:before,
+    h6:before {
+      padding-right: 0;
+      margin-left: 0;
+      content: none;
+    }
+  }
+}

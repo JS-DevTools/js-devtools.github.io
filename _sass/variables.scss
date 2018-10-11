@@ -1,0 +1,70 @@
+// Named Colors
+// ===============================
+$dark-blue: #2268b2;
+$medium-blue: #2879d0;
+$light-blue: #9ddcff;
+$bright-blue: #4184F7;
+
+$darkest-grey: #222;
+$dark-grey: #444;
+$medium-grey: #aaa;
+$light-grey: #ddd;
+$lightest-grey: #ebebeb;
+
+$off-white: #f2f2f2;
+$bright-white: #fff;
+
+$text-color: #666;
+$bg-color: #fafafa;
+
+
+// Standard Sizes
+// ===============================
+$monitor-min-width: 960px;
+$tablet-max-width: $monitor-min-width - 1px;
+$tablet-min-width: 768px;
+$phone-max-width: $tablet-min-width - 1px;
+
+$monitor-content-width: 940px;
+$tablet-content-width: 740px;
+$phone-content-width: 93%;
+
+$large-vertical-space: 40px;
+$medium-vertical-space: 30px;
+$small-vertical-space: 20px;
+$tiny-vertical-space: 3px;
+
+$large-horizontal-space: 30px;
+$medium-horizontal-space: 20px;
+$small-horizontal-space: 10px;
+$tiny-horizontal-space: 5px;
+
+
+// Headings (H1, H2, ... H6)
+// ===============================
+$heading-color: #474747;
+$heading-border: $light-blue;
+
+$heading-left-padding: $small-horizontal-space;
+
+
+// Site Header
+// ===============================
+$header-bg: $bright-blue;
+$header-border: #275da1;
+$header-text: $bright-white;
+
+$header-width-monitor: 540px;
+$header-width-tablet: 340px;
+$header-width-phone: 100%;
+
+
+// Code Samples
+// ===============================
+$code-bg: $bright-white;
+$code-border: $off-white;
+
+
+// Tables
+// ===============================
+$table-bg: $bright-white;

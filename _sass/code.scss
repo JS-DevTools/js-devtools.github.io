@@ -1,0 +1,29 @@
+code, pre {
+  margin-bottom: $medium-vertical-space;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: smaller;
+  color: $darkest-grey;
+}
+
+code {
+  padding: $tiny-vertical-space $tiny-horizontal-space;
+  background-color: $code-bg;
+  border: solid 1px $code-border;
+  white-space: nowrap;
+}
+
+pre {
+  padding: $small-vertical-space $medium-horizontal-space;
+  overflow: auto;
+  text-shadow: none;
+  background: $code-bg;
+  border: solid 1px $code-border;
+
+  code {
+    color: $medium-blue;
+    background-color: $code-bg;
+    padding: 0;
+    border: none;
+    white-space: pre;
+  }
+}

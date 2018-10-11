@@ -1,0 +1,144 @@
+header {
+  padding-top: $large-vertical-space;
+  padding-bottom: $large-vertical-space;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  background: $header-bg url(/img/theme/header-bg.png) 0 0 repeat;
+  border-bottom: solid 1px $header-border;
+
+  h1 {
+    width: $header-width-monitor;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 1;
+    color: $header-text;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    width: $header-width-monitor;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: $light-blue;
+    letter-spacing: 0;
+  }
+
+  .buttons {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    min-height: 170px;
+  }
+
+  a.button {
+    &.logo-button {
+      background: transparent url(/img/theme/logo-button.png) 0 0 no-repeat;
+      display: block;
+      width: 202px;
+      height: 80px;
+      margin-bottom: 10px;
+
+      span {
+        display: none;
+      }
+    }
+
+    &.github-button {
+      background: transparent url(/img/theme/github-button.png) 0 0 no-repeat;
+      display: block;
+      width: 134px;
+      height: 58px;
+      padding-top: 22px;
+      padding-left: 68px;
+      font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+      font-size: 23px;
+      line-height: 1.2;
+      color: $bright-white;
+
+      small {
+        display: block;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+// Tablet Portrait size
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  header {
+    h1, h2 {
+      width: $header-width-tablet;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+// Phone size
+@media only screen and (max-width: $phone-max-width) {
+  header {
+    padding: 100px 0 $small-vertical-space 0;
+
+    .inner {
+      position: relative;
+    }
+
+    h1, h2 {
+      width: $header-width-phone;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+
+    .buttons {
+      position: static;
+      display: block;
+      width: auto;
+      margin-top: 15px;
+      min-height: 0;
+    }
+
+    a.button {
+      &.logo-button {
+        position: absolute;
+        top: -95px;
+        left: 0;
+        height: 50px;
+        background-size: contain;
+        margin: 0;
+      }
+
+      &.github-button {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        font-size: 13px;
+        line-height: 1;
+        color: $medium-blue;
+        text-align: center;
+        background-color: $light-blue;
+        background-image: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+
+        small {
+          display: inline;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

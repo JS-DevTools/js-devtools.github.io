@@ -1,0 +1,41 @@
+.inner {
+  position: relative;
+  width: $monitor-content-width;
+  margin: 0 auto;
+}
+
+#content-wrapper {
+  padding-top: $medium-vertical-space;
+  border-top: solid 1px $bright-white;
+}
+
+#main-content {
+  width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.error-page {
+  min-height: 1000px;
+
+  p {
+    font-size: 21px;
+    margin-top: $medium-vertical-space;
+  }
+}
+
+// Tablet Portrait size
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .inner {
+    width: $tablet-content-width;
+  }
+}
+
+// Phone size
+@media only screen and (max-width: $phone-max-width) {
+  .inner {
+    width: $phone-content-width;
+  }
+}
