@@ -16,5 +16,6 @@ https://jstools.dev/chai-exec/
 https://jstools.dev/file-path-filter/
 https://jstools.dev/rehype-inline-svg/
 https://jstools.dev/rehype-toc/
+https://jstools.dev/rehype-url-inspector/
 https://jstools.dev/coverage-istanbul-loader/
 https://jstools.dev/template-node-typescript/
