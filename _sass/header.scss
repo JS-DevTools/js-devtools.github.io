@@ -1,6 +1,7 @@
 header {
   padding-top: $large-vertical-space;
   padding-bottom: $large-vertical-space;
+  min-height: 150px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: $header-bg url(/img/theme/header-bg.png) 0 0 repeat;
   border-bottom: solid 1px $header-border;
