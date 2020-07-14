@@ -4,6 +4,7 @@ https://jstools.dev/globify/
 https://jstools.dev/simplifyify/
 https://jstools.dev/sourcemapify/
 https://jstools.dev/readdir-enhanced/
+https://jstools.dev/eslint-config/
 https://jstools.dev/eslint-config-modular/
 https://jstools.dev/tslint-modular/
 https://jstools.dev/browserify-banner/
