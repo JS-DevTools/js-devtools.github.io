@@ -4,6 +4,7 @@ https://jstools.dev/globify/
 https://jstools.dev/simplifyify/
 https://jstools.dev/sourcemapify/
 https://jstools.dev/readdir-enhanced/
+https://jstools.dev/eslint-config/
 https://jstools.dev/eslint-config-modular/
 https://jstools.dev/tslint-modular/
 https://jstools.dev/browserify-banner/
@@ -18,4 +19,6 @@ https://jstools.dev/rehype-inline-svg/
 https://jstools.dev/rehype-toc/
 https://jstools.dev/rehype-url-inspector/
 https://jstools.dev/coverage-istanbul-loader/
-https://jstools.dev/template-node-typescript/
+https://jstools.dev/npm-publish/
+https://jstools.dev/humanize-anything/
+https://jstools.dev/assert/
