@@ -20,5 +20,6 @@ https://jstools.dev/rehype-toc/
 https://jstools.dev/rehype-url-inspector/
 https://jstools.dev/coverage-istanbul-loader/
 https://jstools.dev/npm-publish/
+https://jstools.dev/next-mdx/
 https://jstools.dev/humanize-anything/
 https://jstools.dev/assert/
